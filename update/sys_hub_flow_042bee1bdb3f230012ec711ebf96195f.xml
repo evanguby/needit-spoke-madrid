@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Close the overdue tasks, update the work notes for the task with a reason, and log the automatic closure.</description>
+        <internal_name>close_overdue_tasks</internal_name>
+        <label_cache>[{"name":"bf928089-219a-4236-b5ae-180ea0d73254.property_value","label":"3➛Property value","reference_display":"Property value","type":"string","base_type":"string"},{"name":"f3411d2f-87ff-4568-92c2-899b2d7a5378.calculated_date","label":"1➛Calculated date","type":"glide_date","base_type":"glide_date"},{"name":"aa01968e-b8b7-4cec-b4d5-a0ec0f9b6a39.over_due_records","label":"2➛Over Due Records","type":"string","base_type":"string"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Close Overdue Tasks</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-28 19:19:30</sys_created_on>
+        <sys_id>042bee1bdb3f230012ec711ebf96195f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Close Overdue Tasks</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_315143_needit_sp">c37ca103db33230012ec711ebf9619fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">c37ca103db33230012ec711ebf9619fd</sys_scope>
+        <sys_update_name>sys_hub_flow_042bee1bdb3f230012ec711ebf96195f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-28 19:48:21</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=042bee1bdb3f230012ec711ebf96195f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=042bee1bdb3f230012ec711ebf96195f"/>
+</record_update>
